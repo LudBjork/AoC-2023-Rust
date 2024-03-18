@@ -1,5 +1,5 @@
 mod solutions;
 
 fn main() {
-    println!("Hello, world!");
+    println!("{}", solutions::problem1::solution("inputs/problem1.txt"));
 }
